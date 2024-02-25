@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anarchy</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #111112;
+        }
+        @font-face {
+            font-family: 'who asks satan';
+            src: url('ressources/who asks satan.ttf') format('truetype');
+        }
+        h1 {
+            font-size: 200px;
+            text-align: center;
+            font-family: 'who asks satan';
+        }
+        h1 a {
+            text-decoration: none;
+            text-shadow: 0 0 10px #ffffff;
+            color: #ffffff;
+            user-select: none;
+        }
+        .h1b {
+            content: "anarchy";
+            position: absolute;
+            font-size: 400px;
+            color: #ffffff05;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            pointer-events: none; /* Prevent the ::after content from being clickable */
+            text-align: center;
+            letter-spacing: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1><span class="h1b">anarchy</span></h1>
+    <h1><a href="#">anarchy</a></h1>
+</body>
+</html>
